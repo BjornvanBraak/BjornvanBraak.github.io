@@ -1,0 +1,18 @@
+Testing for Site
+update dont understand why different pages have different resolution    
+I am at a loss for words and dont know what is wrong. I have not learned different pages but I am very frustrated   
+fixed it I was zoomed in on one page, wtf I did not know google remembers that.
+
+cant quite get the javascript to work dont know what is wrong
+started to look into the chrome dev sources but then lost interest.
+
+javascript file is not showing up in the browser when referencing. It migth be because
+
+got the javascript to work semi, but fear that it is loading before it has access to the html classes. I dont understand since the html needed is before.
+Maybe it has to do with the fact that the php is on the server side and therefore loads after the js. Since js is client-side.
+But why is then the css added correctly.
+
+setting a timeout to load it on the stack doesnt work. I think I have to give up for now and just learn js further before I mess around more.
+https://www.sitepoint.com/community/t/javascript-loading-even-before-html-loads/6958 for further reading
+
+I tried testing outside the php code

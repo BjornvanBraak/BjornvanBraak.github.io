@@ -1,0 +1,23 @@
+Read something about fen, which is a way to denote the chess position
+
+start watching a youtube series about a chess engine
+https://www.youtube.com/watch?v=2eA0bD3wV3Q&list=PLZ1QII7yudbe4gz2gh9BCI6VDA-xafLog
+
+
+bruce morland gerbil. Detailed described about early chess engine
+http://web.archive.org/web/20070811182741/www.seanet.com/~brucemo/topics/topics.htm
+
+jQuery is the most popular library for javascript which takes care of many common task.
+This means you can focus on the core part of your code. Therefore I will adopt it into my code from a cdn for faster loading.
+I might download it later if understanding via this way might be lacking and download the dev version not the compiled one.
+
+
+
+
+Descissions
+
+The first question is do I write my own graphical user interface (GUI) or do I download one.
+I think I will at least try to write one since it is the most intiutive part of writing a chess enginge since we can see direct results easily.
+The purpose is not to write best engine or coolest looking board, but simply to learn things. I choose chess since I play it occasionally.
+Although being subpoor at it I enjoy it. Besides it has well supported community and documentation.
+

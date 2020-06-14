@@ -1,0 +1,68 @@
+Overview of Jargon and General description
+
+HTML - hypertext markup language
+The basic structure of the web page. It is used to format the text.
+<p class="" id="">Text</p>
+Id and class can be used together and seperate. However id have higher presendence.
+So if the class has the color set to red but the id says blue. It will be blue.
+However if it the color was inhereted from its parent element then it does not matter what attribute it was inherited from.
+<p class="redInCSS" id="blueInCSS">
+    <p class="grayInCSS"></p>
+</p>
+The names of the attribute are there to indicate that the actually name does nothing on its own. However if referenced to
+it can be used to change the properties of the method. In the example above the property color of the p class embedded is in this case
+equal to the class grayInCSS which is a descriptive name and does not mean that the color is of the embedded p element is per definition
+the same as the description suggest.
+Although the color or format can be set in the HTML code it is not good practice.
+The reason CSS is there is to seperate styling from formatting. So if you see that the color is not what it supposed to be you now
+where to look. This becomes increasingly important for debugging for increasing complexity of the site.
+<p style="color: red;">I'm red</p>
+This should never be used however. This has to do with the dynamic coding. U might imaging redesigning the view of your site. This
+would be very error prone and tedious if all styles are embedded in the html code itself instead of being inserted by the computer code.
+Since computer are famous for being able to handle repetitive task very well.
+
+In the examples above the following jargon can be identivied
+<# ...="v" ...="v"></#>
+<#> - starting tag
+</#> - closing tag - most element require a closing tag some however dont (e.g. link, image)
+# - tagname - which indicates what the element is used for (p, image, video, h1, h2 etc)
+... - attribute name - there a some universal attributes (eg. class and id) and some tagname specific (e.g. href)
+v - value of attribute - sets the attribute to the value specified inside ""
+
+CSS - cascading style sheet
+Used to style the HTML
+Previously hinted at the syntax for the CSS is the following
+selector{property:v;}
+selector - the element(s) the style is applied to - what do I want to style? (e.g. p,images,video)
+property - the property of the element that is set - what part do I want to style? (e.g. color)
+v - value you want to set the property of the element to
+
+Javascript
+Used to make the HTML dynamic
+element.method.property
+
+DOM - Document Object model
+The DOM allows Javascript to access all parts of the HTML and therefore makes the HTML dynamic. All elements of HTML can be objects in
+the DOM, objects are commonly reverted to as nodes. The DOM introduces a hierarchy, meaning that each element has a child and parent element.
+The root element is the element who has no parent element.
+
+HTML DOM
+
+
+jQuery syntax
+$(selector).action()
+All jQuery methods are in writen inside of:
+$(document).ready(function(){
+
+});
+This is because we want to load the jQuery only after loading everything else. Another way of doing this would be to insert the script at
+the end of the body. However this is less than ideal. Therefore they call the root of the HTML or XML document object, which is document.
+They use a method which has a descriptive name of ready which looks if the whole document is loaded.
+//I dont understand if the action is the method or the whole thing is called the method. Because javascript calls object.method so I dont
+//understand why they would then call it action in the first place.
+jQuery is specifically designed to respond to events. The actions of visitor(user) that the site can respond thoug (e.g. clicking, 
+hovering, pressing down on key) are called events. The response to an event is an eventhandler
+
+After doing some research about creating your own board it seems overly complex and error prone. Since I do not have any previous javascript
+experience I changed my mind and wanted the board and piece rules from another source and see if I can implement that in my website first.
+

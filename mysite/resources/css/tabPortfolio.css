@@ -1,0 +1,41 @@
+/* this is for the code specific to tab Portfolio */
+/* The general style of this site can be found in stylePortfolio */
+
+/* table */
+<<<<<<< HEAD
+table, td, th{
+    border-collapse: collapse;
+    margin: 1rem;
+    padding: 0.2rem;
+    border: 2px black solid;
+}
+table{
+    margin: 1.5rem auto;
+}
+td{
+    padding: 0.7rem;
+}
+tr:hover{
+    background-color: lightblue;
+}
+thead{
+    background-color: lightskyblue;
+}
+
+@media only screen and (max-width: 720px){
+    .extraInfo{
+        display: none;
+    }
+}
+
+=======
+table{
+    margin: 1rem;
+    padding: 0.2rem;
+    border: 2px black solid;
+    text-align: center;
+}
+td{
+    padding: 1em;
+}
+>>>>>>> 878f3d0f04c545289e83d38433f78714a86d6023
